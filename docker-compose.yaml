@@ -5,5 +5,8 @@ services:
     user: "${UID:-1000}:${GID:-1000}"
     environment:
       - "DISPLAY"
+      - "HOME"
     volumes:
+      - "$HOME:$HOME"
+      - "/etc/passwd:/etc/passwd"
       - "/tmp/.X11-unix:/tmp/.X11-unix"
