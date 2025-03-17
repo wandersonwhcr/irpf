@@ -1,0 +1,9 @@
+services:
+  irpf:
+    build:
+      context: "."
+    user: "${UID:-1000}:${GID:-1000}"
+    environment:
+      - "DISPLAY"
+    volumes:
+      - "/tmp/.X11-unix:/tmp/.X11-unix"
