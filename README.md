@@ -1,4 +1,4 @@
-# docker-java-irpf
+# irpf
 
 Executa o Programa de Imposto de Renda utilizando Docker
 
