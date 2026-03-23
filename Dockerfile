@@ -1,4 +1,4 @@
-FROM amazoncorretto:11-alpine3.21-full
+FROM amazoncorretto:17-alpine3.22-full
 
 ARG IRPF_YEAR=2026
 ARG IRPF_VERSION=1.0
